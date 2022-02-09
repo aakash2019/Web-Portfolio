@@ -113,7 +113,7 @@ let resumeData = {
       description: "Server",
     },
     {
-      skillname: "Reactjs",
+      skillname: "React",
       src: "devicon",
       icon: "devicon-react-original-wordmark colored",
       description: "Frontend Framework",
@@ -123,6 +123,12 @@ let resumeData = {
       src: "devicon",
       icon: "devicon-nodejs-plain-wordmark",
       description: "Backend Framework",
+    },
+    {
+      skillname: "Next.js",
+      src: "devicon",
+      icon: "devicon-nextjs-original-wordmark",
+      description: "Frontend Framework",
     },
     {
       skillname: "Redux & React Context API",
@@ -143,9 +149,15 @@ let resumeData = {
       description: "Relational Database",
     },
     {
-      skillname: "MaterialUI",
+      skillname: "Material UI",
       src: "icon8",
       icon: "https://img.icons8.com/color/96/000000/material-ui.png",
+      description: "CSS Framework",
+    },
+    {
+      skillname: "Tailwind CSS",
+      src: "devicon",
+      icon: "devicon-tailwindcss-plain colored",
       description: "CSS Framework",
     },
     {
@@ -267,22 +279,27 @@ let resumeData = {
           icon: "devicon-react-original-wordmark colored",
         },
         {
-          skillname: "Firebase",
+          skillname: "Tailwind CSS + ",
           src: "icon8",
           icon: "https://img.icons8.com/color/96/000000/firebase.png",
         },
         {
-          skillname: "Tailwind CSS",
+          skillname: "Firebase + ",
           src: "icon8",
           icon: "https://img.icons8.com/color/96/000000/firebase.png",
         },
         {
-          skillname: "Recoil",
+          skillname: "Recoil + ",
           src: "icon8",
           icon: "https://img.icons8.com/color/96/000000/firebase.png",
         },
         {
-          skillname: "NextAuth",
+          skillname: "NextAuth + ",
+          src: "icon8",
+          icon: "https://img.icons8.com/color/96/000000/firebase.png",
+        },
+        {
+          skillname: "Vercel",
           src: "icon8",
           icon: "https://img.icons8.com/color/96/000000/firebase.png",
         },
