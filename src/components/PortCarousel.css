@@ -1,97 +1,97 @@
 section {
-	display: flex;
-	flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
 
 .portfolio__projects {
-	display: flex;
-	flex-direction: column;
-	flex-wrap: wrap;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
 }
 
 .portfolio__project {
-	display: flex;
-	flex-direction: row;
-	flex-wrap: wrap;
-	height: auto;
-	width: 100%;
-	margin: 2% 0 4% 0;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  height: auto;
+  width: 100%;
+  margin: 2% 0 4% 0;
 }
 
 .portfolio__project_imageslider {
-	display: flex;
-	flex: 0.6;
-	margin: 10px 2px 20px 8px;
-	height: auto;
-	width: 50%;
+  display: flex;
+  flex: 0.6;
+  margin: 10px 2px 20px 8px;
+  height: auto;
+  width: 50%;
 }
 
 .portfolio__project_image {
-	margin: 20px;
-	width: 100%;
-	height: auto;
+  margin: 20px;
+  width: 100%;
+  height: auto;
 }
 
 .portfolio__project_sidebar {
-	display: flex;
-	flex-direction: column;
-	flex-grow: 1;
-	flex: 0.4;
-	margin: 2px 0 15px 5px;
-	width: 100%;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  flex: 0.4;
+  margin: 2px 0 15px 5px;
+  width: 100%;
 }
 
 .portfolio__project_name {
-	text-align: center;
-	margin: 10px 3px 3px 0px;
+  text-align: center;
+  margin: 10px 3px 3px 0px;
 }
 
 .portfolio__project_name_text {
-	font-size: 25px;
-	font-family: Montserrat;
-	color: rgba(253, 45, 119, 1);
+  font-size: 25px;
+  font-family: Montserrat;
+  color: rgba(253, 45, 119, 1);
 }
 
 .portfolio__project_description {
-	margin-bottom: 20px;
+  margin-bottom: 20px;
 }
 
 .portfolio__project_description_text {
-	font-family: Montserrat;
-	margin: 10px 3px 3px 0px;
-	color: #fff;
+  font-family: Montserrat;
+  margin: 10px 3px 3px 0px;
+  color: #fff;
 }
 
 .slick-arrow {
-	margin: auto;
+  margin: auto;
 }
 
 button {
-	margin-top: 15px;
-	width: 130px;
-	height: 40px;
-	vertical-align: middle;
-	background-color: rgba(253, 45, 119, 1);
+  margin-top: 15px;
+  width: 130px;
+  height: 40px;
+  vertical-align: middle;
+  background-color: rgba(253, 45, 119, 1);
 }
 
 button:hover {
-	background-color: #11abb0;
+  background-color: #11abb0;
 }
 
 button > p {
-	margin: 0;
-	text-align: center;
-	line-height: 20px;
-	justify-content: center;
-	align-items: center;
+  margin: 0;
+  text-align: center;
+  line-height: 20px;
+  justify-content: center;
+  align-items: center;
 }
 
 .portfolio__project_skills {
-	display: flex;
-	flex-direction: row;
-	flex-wrap: wrap;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
 }
 
 .portfolio__project_skill {
-	box-sizing: border-box;
+  box-sizing: border-box;
 }

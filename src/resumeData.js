@@ -6,7 +6,7 @@ let resumeData = {
   upworkId: "https://www.upwork.com/freelancers/~0151dca73d554411ad",
   skypeId: "https://join.skype.com/invite/WyWt23ASh5rl",
   roleDescription:
-    " Welcome to my Portfolio website. I have been in this industry for 3 years now. I am now comfortable with a bunch of frontend and backend technologies and frameworks and ready to boost your ideas to the market by the means of any of them or even combine a suitable mix of appropriate tools.",
+    " Welcome to my Portfolio website. I have been in this industry from 2018. I am now comfortable with a bunch of frontend and backend technologies and frameworks and ready to boost your ideas to the market by the means of any of them or even combine a suitable mix of appropriate tools.",
   socialLinks: [
     {
       name: "phone",
@@ -52,7 +52,7 @@ let resumeData = {
     },
   ],
   aboutme:
-    "I am a self taught Full Stack Web Developer. I help my clients to develop their ideas into beautiful and smooth web applications. I believe that to be successful in life, one needs to be obsessive with their dreams and keep working towards them. I am also currently pursuing my Bachelor's degree in Computer Science from Kurukshetra University, Kurukshetra",
+    "I am a self taught Full Stack Web Developer. I am willing to help my clients to develop their ideas into beautiful and smooth web applications. I believe that to be successful in life, one needs to be obsessive with their dreams and keep working towards them. I have completed my Bachelor's degree in Computer Science from Kurukshetra University, Kurukshetra in 2021",
   address: "# 1307/4, Urban Estate Kurukshetra, Haryana",
   mobilenum: "+91 7404396642",
   country: "India",
@@ -60,23 +60,23 @@ let resumeData = {
   education: [
     {
       UniversityName: "Kurukshetra University, Kurukshetra",
-      specialization: "B.Sc. Comp. Sc.",
+      specialization: "B.Sc. Computer Science",
       MonthOfJoining: "July",
       YearOfJoining: "2018 -",
       MonthOfPassing: "",
       YearOfPassing: "2021",
       Achievements:
-        "Studying major in Computer Science, Mathematics and Physics.",
+        "Major in Computer Science, Mathematics and Physics. Learnt different programming languages and created various computer projects under the guidance of good teachers.",
     },
     {
       UniversityName: "Aggarsain Public School, Kurukshetra",
-      specialization: "Intermediate (10+2, Non-Medical)",
+      specialization: "Senior Secondary (10+2, Non-Medical)",
       MonthOfPassing: "May",
       YearOfPassing: "2018",
-      Achievements: "",
+      Achievements: "Studied Maths, Physics, Chemistry, English and Physical Education.",
     },
   ],
-  work: [
+  /*work: [
     {
       CompanyName: "Made own projects",
       specialization: "",
@@ -97,7 +97,7 @@ let resumeData = {
       Achievements:
         "Worked with ReactJS, Redux, React Context API, Node.js, Express.js. Relational and Non-relational Database handling and Cloud hosting. Worked with clients from different countries. Developed the ideas of the clients into beautiful web applications.",
     },
-  ],
+  ],*/
   skillsDescription: "My Technical Skills",
   skills: [
     {
@@ -163,7 +163,7 @@ let resumeData = {
     {
       skillname: "Github",
       src: "devicon",
-      icon: "devicon-github-plain-wordmark",
+      icon: "devicon-github-original-wordmark",
       description: "Hosting & Storing Projects",
     },
     {
@@ -191,6 +191,12 @@ let resumeData = {
       description: "Programming Language",
     },
     {
+      skillname: "C++",
+      src: "devicon",
+      icon: "devicon-cplusplus-line-wordmark colored",
+      description: "Programming Language",
+    },
+    {
       skillname: "HTML5",
       src: "devicon",
       icon: "devicon-html5-plain colored",
@@ -207,7 +213,7 @@ let resumeData = {
     {
       name: "SOCIALAPE",
       description:
-        "A progressive web application made by using ReactJS & Firebase. It is like a social media application where you can interact with other users.",
+        "A progressive web application made by using ReactJS & Firebase. It is a social media website where you can interact with other users by creating new screams, liking and commenting on other user's screams. Users can update information in their profile and also get notifications if anybody like or comment on thier scream..",
       link: "https://socialape-e38f4.web.app/",
       skills: [
         {
@@ -243,20 +249,20 @@ let resumeData = {
       ],
       imgurl: "images/myProjectPics/sa1.png",
       images: [
-        { url: "images/myProjectPics/sa1.png" },
-        { url: "images/myProjectPics/sa2.png" },
-        { url: "images/myProjectPics/sa3.png" },
-        { url: "images/myProjectPics/sa4.png" },
-        { url: "images/myProjectPics/sa5.png" },
+        { url: "images/myProjectPics/socialape/sa1.png" },
+        { url: "images/myProjectPics/socialape/sa2.png" },
+        { url: "images/myProjectPics/socialape/sa3.png" },
+        { url: "images/myProjectPics/socialape/sa4.png" },
+        { url: "images/myProjectPics/socialape/sa5.png" },
       ],
     },
     {
-      name: "NETFLIX CLONE",
-      description: "A clone of NETFLIX made by using React app.",
-      link: "https://netflix-clone-3eb69.web.app/",
+      name: "INSTAGRAM CLONE",
+      description: "This is a Frontend clone of INSTAGRAM, which consists of basic functionalities such as creating a new post, like and comment on them. Anybody can login into instagram using their google account and sign out by tapping on Profile picture in header section.",
+      link: "https://instagram-three-wine.vercel.app/",
       skills: [
         {
-          skillname: "ReactJS + ",
+          skillname: "Next.js + ",
           src: "devicon",
           icon: "devicon-react-original-wordmark colored",
         },
@@ -265,23 +271,46 @@ let resumeData = {
           src: "icon8",
           icon: "https://img.icons8.com/color/96/000000/firebase.png",
         },
+        {
+          skillname: "Tailwind CSS",
+          src: "icon8",
+          icon: "https://img.icons8.com/color/96/000000/firebase.png",
+        },
+        {
+          skillname: "Recoil",
+          src: "icon8",
+          icon: "https://img.icons8.com/color/96/000000/firebase.png",
+        },
+        {
+          skillname: "NextAuth",
+          src: "icon8",
+          icon: "https://img.icons8.com/color/96/000000/firebase.png",
+        },
       ],
       imgurl: "images/myProjectPics/nc1.png",
       images: [
-        { url: "images/myProjectPics/nc1.png" },
-        { url: "images/myProjectPics/nc2.png" },
-        { url: "images/myProjectPics/nc4.png" },
+        { url: "images/myProjectPics/instagramClone/ig1.png" },
+        { url: "images/myProjectPics/instagramClone/ig2.png" },
+        { url: "images/myProjectPics/instagramClone/ig3.png" },
+        { url: "images/myProjectPics/instagramClone/ig4.png" },
+        { url: "images/myProjectPics/instagramClone/ig5.png" },
+        { url: "images/myProjectPics/instagramClone/ig6.png" },
       ],
     },
     {
       name: "AMAZON CLONE",
-      description: "A clone of AMAZON made by using React app.",
+      description: "A clone of AMAZON made by using React app. This website uses static data for items, Context API for state management and Firebase for creating users.",
       link: "https://clone-8defd.web.app/",
       skills: [
         {
           skillname: "ReactJS + ",
           src: "devicon",
           icon: "devicon-react-original-wordmark colored",
+        },
+        {
+          skillname: "Context API + ",
+          src: "icon8",
+          icon: "https://img.icons8.com/color/96/000000/firebase.png",
         },
         {
           skillname: "Firebase + ",
@@ -296,17 +325,17 @@ let resumeData = {
       ],
       imgurl: "images/myProjectPics/ac1.png",
       images: [
-        { url: "images/myProjectPics/ac1.png" },
-        { url: "images/myProjectPics/ac2.png" },
-        { url: "images/myProjectPics/ac3.png" },
-        { url: "images/myProjectPics/ac4.png" },
-        { url: "images/myProjectPics/ac5.png" },
+        { url: "images/myProjectPics/amazonClone/ac1.png" },
+        { url: "images/myProjectPics/amazonClone/ac2.png" },
+        { url: "images/myProjectPics/amazonClone/ac3.png" },
+        { url: "images/myProjectPics/amazonClone/ac4.png" },
+        { url: "images/myProjectPics/amazonClone/ac5.png" },
       ],
     },
     {
       name: "COVID-19 TRACKER",
       description:
-        "A Covid-19 tracker which tracks the number of Coronavirus patients.",
+        "A Covid-19 tracker which tracks the number of Coronavirus patients. This website was created during Coronavirus pandemic to show number of cases, recovered patients and deaths caused by Coronavirus by fetching data from Open Disease Data API and charted it on world map by using LeafletJS.",
       link: "https://covid-19-tracker-b59da.web.app/",
       skills: [
         {
@@ -332,16 +361,40 @@ let resumeData = {
       ],
       imgurl: "images/myProjectPics/ct1.png",
       images: [
-        { url: "images/myProjectPics/ct1.png" },
-        { url: "images/myProjectPics/ct2.png" },
-        { url: "images/myProjectPics/ct3.png" },
-        { url: "images/myProjectPics/ct4.png" },
-        { url: "images/myProjectPics/ct5.png" },
+        { url: "images/myProjectPics/covidTracker/ct1.png" },
+        { url: "images/myProjectPics/covidTracker/ct2.png" },
+        { url: "images/myProjectPics/covidTracker/ct3.png" },
+        { url: "images/myProjectPics/covidTracker/ct4.png" },
+        { url: "images/myProjectPics/covidTracker/ct5.png" },
+      ],
+    },
+    {
+      name: "NETFLIX CLONE",
+      description: "A Frontend clone of NETFLIX made by using React app and Material UI. This website fetches data of movies and web series from TMDB API.",
+      link: "https://netflix-clone-3eb69.web.app/",
+      skills: [
+        {
+          skillname: "ReactJS + ",
+          src: "devicon",
+          icon: "devicon-react-original-wordmark colored",
+        },
+        {
+          skillname: "Firebase",
+          src: "icon8",
+          icon: "https://img.icons8.com/color/96/000000/firebase.png",
+        },
+      ],
+      imgurl: "images/myProjectPics/nc1.png",
+      images: [
+        { url: "images/myProjectPics/netflixClone/nc1.png" },
+        { url: "images/myProjectPics/netflixClone/nc2.png" },
+        // { url: "images/myProjectPics/netflixClone/nc3.png" },
+        { url: "images/myProjectPics/netflixClone/nc4.png" },
       ],
     },
     {
       name: "WHATSAPP WEB CLONE",
-      description: "A simplified WhatsApp Web Frontend Clone.",
+      description: "A Frontend Whatsapp Web Clone built using ReactJS and Material UI. Anybody can create a new chat group using their google account and chat with other people.",
       link: "https://whatsapp-clone-9b3e5.web.app/",
       skills: [
         {
@@ -357,10 +410,10 @@ let resumeData = {
       ],
       imgurl: "images/myProjectPics/wa2.png",
       images: [
-        { url: "images/myProjectPics/wa1.png" },
-        { url: "images/myProjectPics/wa2.png" },
-        { url: "images/myProjectPics/wa3.png" },
-        { url: "images/myProjectPics/wa4.png" },
+        { url: "images/myProjectPics/whatsappClone/wa1.png" },
+        { url: "images/myProjectPics/whatsappClone/wa2.png" },
+        { url: "images/myProjectPics/whatsappClone/wa3.png" },
+        { url: "images/myProjectPics/whatsappClone/wa4.png" },
       ],
     },
   ],

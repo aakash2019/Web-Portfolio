@@ -1,4 +1,6 @@
 import React, { Component } from "react";
+import "./Resume.css";
+
 export default class Resume extends Component {
   render() {
     let resumeData = this.props.resumeData;
@@ -46,11 +48,23 @@ export default class Resume extends Component {
         <div className="row work">
           <div className="three columns header-col">
             <h1 style={{ fontSize: "30px", fontFamily: "Montserrat" }}>
-              <span>Work</span>
+              <span>Resume</span>
             </h1>
           </div>
+          <div className="nine columns main-col resumeBox">
+            <center>
 
-          <div className="nine columns main-col">
+              <a href="images/resume.pdf" download><img
+                className="resumeImage"
+                style={{
+                  marginBottom: "20px",
+                  boxShadow:
+                    "0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 3px rgba(0, 0, 0, 0.3)",
+                }}
+                src="images/resume.png"
+                alt="Resume"
+              /></a>
+            </center>
             {resumeData.work &&
               resumeData.work.map((item, index) => {
                 return (

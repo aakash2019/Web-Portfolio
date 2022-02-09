@@ -1,0 +1,13 @@
+.resumeBox {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.resumeImage {
+  height: 300px;
+}
+
+.resumeImage:hover {
+  height: 600px;
+  transition: 0.4s ease-out;
+}
